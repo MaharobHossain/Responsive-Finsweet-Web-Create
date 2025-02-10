@@ -54,4 +54,10 @@ body{
  
 
 
- 
+ @media screen and (max-width: 576px){
+    .container, .nav-list, .navbar {
+        flex-direction: column;
+    }
+    
+
+ }
