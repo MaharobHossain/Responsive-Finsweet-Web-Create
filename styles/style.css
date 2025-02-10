@@ -1,3 +1,13 @@
-h1{
-    text-align: center;
+                   /* Recomendeted Style Section */
+
+.poppins-font{
+font-family: "Poppins", serif;
+font-weight: 400;
+ font-style: normal;
+}                
+.bg-color{
+    background-color: rgba(28, 30, 83, 1);
+}
+.display-flex{
+    display: flex;
 }
