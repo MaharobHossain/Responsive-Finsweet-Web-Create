@@ -18,14 +18,14 @@ body{
 
                    /* Header Section Style*/
  .container{
-    max-width: 1280px;
-    margin: 0 auto;
+   max-width: 1280px;
+   margin: 0 auto;
     justify-content: space-between;
     align-items: center;
  }                  
  .container .logo>h2{
-    font-size: 1.5rem;
-    font-weight: 800;
+    font-size: 1.9rem;
+    font-weight: 700;
     color: white;
  } 
  .nav-list{
@@ -54,6 +54,12 @@ body{
  
 
 
+
+
+
+
+
+ 
  @media screen and (max-width: 576px){
     .container, .nav-list, .navbar {
         flex-direction: column;
