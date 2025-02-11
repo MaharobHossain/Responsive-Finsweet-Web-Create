@@ -237,7 +237,7 @@ body{
 
  
 @media screen and (max-width: 576px){
-.container, .nav-list, .navbar{
+.container, .nav-list, .navbar, .work-container{
 flex-direction: column;
 }
 .banner{
@@ -284,6 +284,12 @@ padding-bottom: 10px;
 
 .hero-image img {
    width: 100%;
+}
+.work-container{
+   text-align: center;
+}
+.work-right{
+   grid-template-columns: repeat(1, 1fr);
 }
 
 
