@@ -17,6 +17,8 @@ body{
 
 
                    /* Header Section Style*/
+
+ /* Navbar section style */
  .container{
    max-width: 1280px;
    margin: 0 auto;
@@ -49,8 +51,36 @@ body{
     margin-left: 35px;
     padding: 0px 40px;
     border-radius: 41px;
- }      
+ }   
  
+ /* Banner section style */
+ .banner{
+   max-width: 1280px;
+   margin: 0 auto;
+ }
+ .banner-container{
+   padding-top: 100px;
+   padding-bottom: 100px;
+   gap: 30px;
+
+ }
+ 
+.hero-text {
+   max-width: 50%;
+}
+
+.hero-text h1 {
+   font-size: 3.3rem;
+   font-weight: 600;
+   color: white;
+}
+
+.hero-text p {
+   font-size: 1rem;
+   font-weight: 500;
+   color: #c6c5c5;
+}
+
  
 
 
