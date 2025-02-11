@@ -49,10 +49,15 @@ body{
     font-weight: 500;
     border: 2px solid rgba(244, 246, 252, 0.37);
     margin-left: 35px;
-    padding: 0px 40px;
+    padding: 0px 50px;
     border-radius: 41px;
  }  
-  
+ .contact-button:hover{
+   background-color: aquamarine;
+   color: black;
+   padding: 1px 55px;
+   font-size: 1.01rem;
+ } 
  
  /* Banner section style */
  .banner{
@@ -139,7 +144,7 @@ body{
 
  
  @media screen and (max-width: 576px){
-    .container, .nav-list, .navbar {
+    .container, .nav-list, .navbar, .banner-container {
         flex-direction: column;
     }
     
