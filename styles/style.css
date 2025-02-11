@@ -309,6 +309,10 @@ padding-bottom: 10px;
 .work-right{
    grid-template-columns: repeat(1, 1fr);
 }
+.pro-titel{
+   font-size: 1.5rem;
+   font-weight: 500;
+}
 
 
 
