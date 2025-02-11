@@ -219,7 +219,25 @@ body{
    font-size: 1rem;
    font-weight: 400;
    color: rgba(40, 41, 56, 1);
+}
 
+
+.view-project{
+   max-width: 1280px;
+   margin: 0 auto;
+}
+.project-heading{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.pro-titel{
+   font-size: 3rem;
+   font-weight: 600;
+}
+.pro-barr{
+   font-size: 1rem;
+   font-weight: 500;
 }
 
 
