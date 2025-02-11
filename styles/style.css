@@ -154,14 +154,13 @@ body{
    margin: 0 auto;
    gap: 40px;
    background-color: #F4F6FC;
+   padding-bottom: 150px;
 }
 
 .work-left {
-   /* flex: 1;
-   display: inline; */
    max-width: 405px;
    height: 184px;
-   margin-top: 50px;
+   margin-top: 80px;
 } 
 
 .work-left h2 {
@@ -188,6 +187,43 @@ body{
    font-size: 1.1rem;
    font-weight: 500;
 }
+
+
+.work-right {
+   display: grid; 
+   grid-template-columns: repeat(2, 1fr);
+   gap: 50px;
+   margin-top: 100px;
+   margin-left: 50px;
+}
+.work-step{
+   
+   color: #7f85ab;
+   max-width: 328px;
+   max-height: 178px;
+   padding: 25px 5px;
+   border-radius: 5px;
+   
+}
+
+.work-step h3{
+    font-family: Poppins;
+    font-size: 2.12rem;
+    font-weight: 500;
+    color: #282938;
+    margin: 12px 0;
+}
+
+.work-step p{
+   font-family: Poppins;
+   font-size: 1rem;
+   font-weight: 400;
+   color: rgba(40, 41, 56, 1);
+
+}
+
+
+
 
 
 
