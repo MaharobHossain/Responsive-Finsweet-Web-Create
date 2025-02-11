@@ -222,6 +222,9 @@ body{
 }
 
 
+/* Project section style */
+
+
 .view-project{
    max-width: 1280px;
    margin: 0 auto;
@@ -239,6 +242,65 @@ body{
    font-size: 1rem;
    font-weight: 500;
 }
+.project-box-big{
+   max-width: 843px;
+   height: 600px;
+   background-size: cover;
+   background-repeat: no-repeat;
+
+}
+.big-box-img{
+   max-width: 396px;
+   height: 600px;
+}
+.big-box-img > img{
+   width: 100%;
+}
+.big-box-titel{
+   font-family: Poppins;
+   font-weight: 600;
+   font-size: 1.5rem;
+   color: white;
+   padding-top: 248px;
+   padding-left: 19px;
+
+}
+.big-box-description{
+   font-family: Poppins;
+   font-weight: 500;
+   font-size: 1rem;
+   line-height: 16px;
+   padding-left: 19px;
+   color: #d7d2d2;
+}
+.big-box-img h5{
+   color: #FCD980;
+   font-family: Poppins;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 16px;
+   padding-left: 19px;
+   line-height: 28px;
+}
+.coloum-box, .coloum-box2{
+   max-width: 405px;
+   height: 284px;
+}
+.coloum-box-blue{
+   background-color: rgba(28, 30, 83, 1);
+
+} 
+
+.project-all-box{
+   display: flex;
+}
+.coloum-box{
+   display: flex;
+   flex-direction: column;
+   margin-left: 200px;
+}
+
+
 
 
 
