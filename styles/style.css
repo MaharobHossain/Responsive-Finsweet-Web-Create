@@ -488,6 +488,60 @@ padding-bottom: 10px;
    font-weight: 500;
 }
 
+.project-titel{
+   font-size: 1.6rem;
+}
+.project-bar{
+   font-size: 0.5rem;
+   align-items: center;
+}
+.arrow-img{
+   width: 16%;
+}
+.view-project{
+   flex-direction: column;
+   margin: 0 auto;
+}
+.project-bg-img{
+   /* width: 600px; */
+   width: 97%;
+   height: 380px;
+}
+.project-bg-pink-img{
+   width: 60%;
+   height: 380px;
+}
+.pink-project-details{
+   padding-top: 120px;
+   padding-left: 10px;
+}
+.pink-titel{
+   font-size: 1.2rem;
+   font-weight: 500;
+   color: white;
+}
+.pimk-description{
+   font-size: 0.7rem;
+   font-weight: 400;
+   color: white;
+}
+.pink-bar{
+   font-size: 0.9rem;
+   font-weight: 400;
+   color: rgba(252, 217, 128, 1);
+}
+.side-coloum-box{
+  padding-top: 30px;
+}
+.side-box1{
+   padding-bottom: 45px;
+
+}
+.side-box2{
+   padding-bottom: 45px;
+}
+
+
 
 
 }
